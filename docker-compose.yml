@@ -1,0 +1,12 @@
+version: "3"
+services:
+  xray:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    restart: always
+    container_name: xray_1.2
+    network_mode: "host"
+    environment:
+      - PASS=${PASS}
+      - UUID=${UUID}
