@@ -36,6 +36,7 @@ Leave everything else as it is.
 Turn on, and choose either system proxy mode or TUN mode (the latter also creates a virtual network adapter in windows, to which you can configure the connection of other adapters). 
 
 
+
 Это простой Xray сервер в контейнере.
 
 1) Предварительно необходимо установить docker
@@ -71,4 +72,4 @@ Turn on, and choose either system proxy mode or TUN mode (the latter also create
  + Настройки сети - ставим галочку - разрешить небезопасное подключение (шифрование будет ок, но с сертификатом что мы выпустили в контейнере сами, а не из доверенного центра)
 Все остальное оставляем как есть. 
 
-Включаем, и выбираем либо режим системного прокси, либо режим TUN (последний в т.ч. создает виртуальный сeтевой адаптер в windosw , к которому можно настроить подключение других адаптеров). 
+Включаем, и выбираем либо режим системного прокси, либо режим TUN (последний в т.ч. создает виртуальный сeтевой адаптер в windows , к которому можно настроить подключение других адаптеров). 
