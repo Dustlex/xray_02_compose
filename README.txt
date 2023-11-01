@@ -9,7 +9,7 @@ This is a simple Xray server in a container.
 
 3) Change the contents of the .env
 - UUID variable (can be generated in any UUID generator, it will be used for VLESS connection)
-- PASS variable (this is the password for shadowsocks, must be 12 characters (provided you don't change the 128-bit encryption in config.json) , base64 encoded)
+- PASS variable (this is the password for shadowsocks, must be 16 characters (provided you don't change the 128-bit encryption in config.json) , base64 encoded)
    + you can encode the password "pipidorka123LEXP" with the command echo -n "pipidorka123LEXP" | base64. 
    + the obtained value should be specified in the variable and when connecting in the client during shadowsocks connection.
 
